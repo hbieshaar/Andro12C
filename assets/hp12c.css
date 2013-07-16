@@ -1,0 +1,17 @@
+body {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	background-color: #444;
+}
+
+div#pointer_div img {
+    border: 0;
+    padding: 0;
+	margin-left: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	float: none;
+	clear: right;
+}

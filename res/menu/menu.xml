@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:titleCondensed="Audio feedback"      android:numericShortcut="2" android:visible="true" android:alphabeticShortcut="h" android:enabled="true" android:title="Audio feedback"     android:id="@+id/feedback3"     android:orderInCategory="1"></item>
+    <item android:titleCondensed="Haptic key 1"      android:numericShortcut="2" android:visible="true" android:alphabeticShortcut="h" android:enabled="true" android:title="Haptic key 1"     android:id="@+id/feedback1"     android:orderInCategory="1"></item>
+    <item android:titleCondensed="Haptic key 2"      android:numericShortcut="2" android:visible="true" android:alphabeticShortcut="h" android:enabled="true" android:title="Haptic key 2"     android:id="@+id/feedback2"     android:orderInCategory="1"></item>
+    <item android:titleCondensed="No feedback"     android:numericShortcut="2" android:visible="true" android:alphabeticShortcut="h" android:enabled="true" android:title="No feedback"      android:id="@+id/feedback0"     android:orderInCategory="1"></item>
+    <item android:titleCondensed="Fullscreen on"  android:numericShortcut="3" android:visible="true" android:alphabeticShortcut="f" android:enabled="true" android:title="Enable fullscreen" android:id="@+id/fullscreen1" android:orderInCategory="3"></item>
+    <item android:titleCondensed="Fullscreen off" android:numericShortcut="4" android:visible="true" android:alphabeticShortcut="n" android:enabled="true" android:title="Disable fullscreen"  android:id="@+id/fullscreen0" android:orderInCategory="4"></item>
+    <item android:titleCondensed="Tweaks" android:numericShortcut="5" android:visible="true" android:alphabeticShortcut="t" android:enabled="true" android:title="Tweaks" android:id="@+id/tweaks" android:orderInCategory="5">
+	<menu>
+    		<item android:titleCondensed="Never sleep" android:numericShortcut="1"
+			android:visible="true" android:alphabeticShortcut="w"
+			android:enabled="true" android:title="Never sleep"
+			android:id="@+id/sleep1" android:orderInCategory="1"></item>
+    		<item android:titleCondensed="Allow sleep" android:numericShortcut="2"
+			android:visible="true" android:alphabeticShortcut="s"
+			android:enabled="true" android:title="Allow sleep"
+			android:id="@+id/sleep0" android:orderInCategory="2"></item>
+    		<item android:titleCondensed="Normal zoom" android:numericShortcut="3"
+			android:visible="true" android:alphabeticShortcut="z"
+			android:enabled="true" android:title="Normal zoom"
+			android:id="@+id/zoom0" android:orderInCategory="3"></item>
+    		<item android:titleCondensed="Less zoom" android:numericShortcut="4"
+			android:visible="true" android:alphabeticShortcut="l"
+			android:enabled="true" android:title="Less zoom"
+			android:id="@+id/zoomminus" android:orderInCategory="4"></item>
+    		<item android:titleCondensed="More zoom" android:numericShortcut="5"
+			android:visible="true" android:alphabeticShortcut="m"
+			android:enabled="true" android:title="More zoom"
+			android:id="@+id/zoomplus" android:orderInCategory="5"></item>
+	</menu>
+    </item>
+    <item android:titleCondensed="About" android:numericShortcut="6" android:alphabeticShortcut="b" android:title="About..." android:id="@+id/about" android:orderInCategory="6"></item>
+</menu>
