@@ -1,0 +1,9 @@
+._*.png.*
+bin/
+gen/
+ant.properties
+build.xml
+local.properties
+assets/TODO
+TODO
+assets/icon.png
