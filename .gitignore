@@ -1,9 +1,6 @@
-._*.png.*
-bin/
-gen/
-ant.properties
-build.xml
-local.properties
-assets/TODO
-TODO
-assets/icon.png
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+build/

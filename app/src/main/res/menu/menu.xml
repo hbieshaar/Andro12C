@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:titleCondensed="Feedback" android:visible="true" android:enabled="true"
+           android:title="Feedback"     android:id="@+id/feedback_menu"     android:orderInCategory="1">
+    <menu>
+      <group android:checkableBehavior="all">
+      <item android:titleCondensed="Audio" android:visible="true" android:enabled="true"
+            android:title="Audio feedback"     android:id="@+id/feedback_audio"     android:orderInCategory="1"></item>
+      <item android:titleCondensed="Haptic key 1"   android:visible="true" android:enabled="true"
+            android:title="Haptic key 1"     android:id="@+id/feedback_haptic_strong"     android:orderInCategory="2"></item>
+     <item android:titleCondensed="Haptic key 2"   android:visible="true" android:enabled="true"
+            android:title="Haptic key 2"     android:id="@+id/feedback_haptic_weak"     android:orderInCategory="3"></item>
+     <item android:titleCondensed="No feedback"    android:visible="true" android:enabled="true"
+            android:title="No feedback"      android:id="@+id/feedback_none"     android:orderInCategory="4"></item>
+     </group>
+    </menu>
+    </item>
+
+    <item android:titleCondensed="Display" android:visible="true" android:enabled="true"
+           android:title="Display"     android:id="@+id/display_menu"     android:orderInCategory="2">
+    <menu>
+      <group android:checkableBehavior="all">
+        <item android:titleCondensed="Lock portrait" android:visible="true" android:enabled="true"
+        android:title="Lock portrait" android:id="@+id/locklayout_portrait" android:orderInCategory="1"></item>
+    <item android:titleCondensed="Lock landscape" android:visible="true" android:enabled="true"
+        android:title="Lock landscape" android:id="@+id/locklayout_landscape" android:orderInCategory="2"></item>
+    <item android:titleCondensed="Allow rotation" android:visible="true" android:enabled="true"
+        android:title="Allow rotation" android:id="@+id/locklayout_rotate" android:orderInCategory="3"></item>
+    </group>
+      <group android:checkableBehavior="all">
+      <item android:titleCondensed="Fullscreen on"  android:visible="true" android:enabled="true"
+            android:title="Enable fullscreen" android:id="@+id/fullscreen_on" android:orderInCategory="4"></item>
+        <item android:titleCondensed="Fullscreen off" android:visible="true" android:enabled="true"
+            android:title="Disable fullscreen"  android:id="@+id/fullscreen_off" android:orderInCategory="5"></item>
+    </group>
+      <group android:checkableBehavior="all">
+      <item android:titleCondensed="Stretch" android:visible="true" android:enabled="true"
+            android:title="Stretch"  android:id="@+id/stretch_on" android:orderInCategory="7"></item>
+        <item android:titleCondensed="Do not stretch" android:visible="true" android:enabled="true"
+            android:title="Do not stretch" android:id="@+id/stretch_off" android:orderInCategory="8"></item>
+    </group>
+      <group android:checkableBehavior="all">
+      <item android:titleCondensed="Never sleep" android:visible="true" android:enabled="true"
+            android:title="Never sleep" android:orderInCategory="9" android:id="@+id/sleep_on"></item>
+    		<item android:titleCondensed="Allow sleep"
+			android:visible="true" android:enabled="true" android:title="Allow sleep"
+			android:id="@+id/sleep_off" android:orderInCategory="10"></item>
+   </group>
+ 	</menu>
+	</item>
+
+    <item android:titleCondensed="Number format" android:visible="true" android:enabled="true"
+        android:title="Number format" android:id="@+id/decimal_menu" android:orderInCategory="6">
+      <menu>
+      <group android:checkableBehavior="all">
+    <item android:id="@+id/decimal_point" android:title="1,111,111.9" android:titleCondensed="1,111,111.9"
+        android:enabled="true" android:orderInCategory="1" android:visible="true"/>
+    <item android:id="@+id/decimal_comma" android:enabled="true" android:orderInCategory="2"
+        android:title="1.111.111,9" android:titleCondensed="1.111.111,9" android:visible="true"/>
+    <item android:id="@+id/decimal_indian" android:enabled="true" android:orderInCategory="3"
+        android:title="11,11,111.9" android:titleCondensed="11,11,111.9" android:visible="true"/>
+      </group>
+    </menu>
+    </item>
+    	
+    <item android:titleCondensed="Memory" android:visible="true" android:enabled="true"
+        android:title="Memory files" android:id="@+id/memory" android:orderInCategory="9">
+      <menu>
+	<item android:id="@+id/memory_load" android:title="Load memory" android:titleCondensed="Load memory"
+	    android:enabled="true" android:orderInCategory="1" android:visible="true"/>
+	<item android:id="@+id/memory_save" android:enabled="true" android:orderInCategory="2"
+	    android:title="Save memory" android:titleCondensed="Save memory" android:visible="true"/>
+	<item android:id="@+id/memory_delete" android:enabled="true" android:orderInCategory="3"
+	    android:title="Delete memory" android:titleCondensed="Save memory" android:visible="true"/>
+      </menu>
+    </item>
+    
+    <item android:titleCondensed="About" android:title="About..." android:id="@+id/about_show"
+        android:orderInCategory="10"></item>
+</menu>

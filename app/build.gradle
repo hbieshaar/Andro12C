@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 15
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "br.com.epx.andro12c"
+        minSdkVersion 15
+        targetSdkVersion 15
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_5
+            targetCompatibility JavaVersion.VERSION_1_5
+        }
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.google.android.gms:play-services-ads:9.4.0'
+    androidTestCompile ('com.android.support.test.espresso:espresso-core:2.2.1') {
+        exclude module: 'support-annotations'
+    }
+    compile files('libs/js.jar')
+}

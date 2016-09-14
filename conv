@@ -1,0 +1,15 @@
+#!/bin/bash -x
+
+BASE=distro/icon_base.png
+DEST=app/src/main/res/
+
+mkdir -p $DEST/drawable-{xxxhdpi,xxhdpi,xhdpi,hdpi,mdpi,ldpi}/
+convert $BASE -resize '192x192!' $DEST/drawable-xxxhdpi/icon.png
+convert $BASE -resize '144x144!' $DEST/drawable-xxhdpi/icon.png
+convert $BASE -resize '96x96!' $DEST/drawable-xhdpi/icon.png
+convert $BASE -resize '72x72!' $DEST/drawable-hdpi/icon.png
+convert $BASE -resize '36x36!' $DEST/drawable-ldpi/icon.png
+convert $BASE -resize '48x48!' $DEST/drawable-mdpi/icon.png
+convert $BASE -resize '512x512!' distro/icon.png
+convert $BASE -resize '192x192!' distro/icon_i.png
+convert $BASE -resize '114x114!' distro/icon_i_114.png

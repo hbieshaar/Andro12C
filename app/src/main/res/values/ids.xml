@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="dmodifier" type="id"/>
+    <item name="dbegin" type="id"/>
+    <item name="ddmyc" type="id"/>
+    <item name="pgrm" type="id"/>
+
+    <item name="lcd01" type="id"/>
+    <item name="lcd02" type="id"/>
+    <item name="lcd03" type="id"/>
+    <item name="lcd04" type="id"/>
+    <item name="lcd05" type="id"/>
+    <item name="lcd06" type="id"/>
+    <item name="lcd07" type="id"/>
+    <item name="lcd08" type="id"/>
+    <item name="lcd09" type="id"/>
+
+    <item name="lcd11" type="id"/>
+    <item name="lcd12" type="id"/>
+    <item name="lcd13" type="id"/>
+    <item name="lcd14" type="id"/>
+    <item name="lcd15" type="id"/>
+    <item name="lcd16" type="id"/>
+    <item name="lcd17" type="id"/>
+    <item name="lcd18" type="id"/>
+    <item name="lcd19" type="id"/>
+
+    <item name="lcd21" type="id"/>
+    <item name="lcd22" type="id"/>
+    <item name="lcd23" type="id"/>
+    <item name="lcd24" type="id"/>
+    <item name="lcd25" type="id"/>
+    <item name="lcd26" type="id"/>
+    <item name="lcd27" type="id"/>
+    <item name="lcd28" type="id"/>
+    <item name="lcd29" type="id"/>
+
+    <item name="lcd31" type="id"/>
+    <item name="lcd32" type="id"/>
+    <item name="lcd33" type="id"/>
+    <item name="lcd34" type="id"/>
+    <item name="lcd35" type="id"/>
+    <item name="lcd36" type="id"/>
+    <item name="lcd37" type="id"/>
+    <item name="lcd38" type="id"/>
+    <item name="lcd39" type="id"/>
+
+
+    <item name="lcd41" type="id"/>
+    <item name="lcd42" type="id"/>
+    <item name="lcd43" type="id"/>
+    <item name="lcd44" type="id"/>
+    <item name="lcd45" type="id"/>
+    <item name="lcd46" type="id"/>
+    <item name="lcd47" type="id"/>
+    <item name="lcd48" type="id"/>
+    <item name="lcd49" type="id"/>
+
+
+    <item name="lcd51" type="id"/>
+    <item name="lcd52" type="id"/>
+    <item name="lcd53" type="id"/>
+    <item name="lcd54" type="id"/>
+    <item name="lcd55" type="id"/>
+    <item name="lcd56" type="id"/>
+    <item name="lcd57" type="id"/>
+    <item name="lcd58" type="id"/>
+    <item name="lcd59" type="id"/>
+
+
+    <item name="lcd61" type="id"/>
+    <item name="lcd62" type="id"/>
+    <item name="lcd63" type="id"/>
+    <item name="lcd64" type="id"/>
+    <item name="lcd65" type="id"/>
+    <item name="lcd66" type="id"/>
+    <item name="lcd67" type="id"/>
+    <item name="lcd68" type="id"/>
+    <item name="lcd69" type="id"/>
+
+
+    <item name="lcd71" type="id"/>
+    <item name="lcd72" type="id"/>
+    <item name="lcd73" type="id"/>
+    <item name="lcd74" type="id"/>
+    <item name="lcd75" type="id"/>
+    <item name="lcd76" type="id"/>
+    <item name="lcd77" type="id"/>
+    <item name="lcd78" type="id"/>
+    <item name="lcd79" type="id"/>
+
+    <item name="lcd81" type="id"/>
+    <item name="lcd82" type="id"/>
+    <item name="lcd83" type="id"/>
+    <item name="lcd84" type="id"/>
+    <item name="lcd85" type="id"/>
+    <item name="lcd86" type="id"/>
+    <item name="lcd87" type="id"/>
+    <item name="lcd88" type="id"/>
+    <item name="lcd89" type="id"/>
+
+
+    <item name="lcd91" type="id"/>
+    <item name="lcd92" type="id"/>
+    <item name="lcd93" type="id"/>
+    <item name="lcd94" type="id"/>
+    <item name="lcd95" type="id"/>
+    <item name="lcd96" type="id"/>
+    <item name="lcd97" type="id"/>
+    <item name="lcd98" type="id"/>
+    <item name="lcd99" type="id"/>
+
+
+    <item name="lcd101" type="id"/>
+    <item name="lcd102" type="id"/>
+    <item name="lcd103" type="id"/>
+    <item name="lcd104" type="id"/>
+    <item name="lcd105" type="id"/>
+    <item name="lcd106" type="id"/>
+    <item name="lcd107" type="id"/>
+    <item name="lcd108" type="id"/>
+    <item name="lcd109" type="id"/>
+
+</resources>

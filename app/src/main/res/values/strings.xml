@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Andro12C free</string>
+    <string name="app_folder_name">Andro12C</string>
+    <string name="app_desc">Financial calculator for Android</string>
+    <string name="app_about">Andro12C version @@\n© 2011, 2014 Elvis Pfützenreuter\nhttps://epxx.co</string><string name="face">Face</string>
+
+    <string name="press_on_again">Press ON again to close</string>
+    <string name="loaded">Loaded </string>
+    <string name="not_loaded">Could not load </string>
+    <string name="saved">Saved </string>
+    <string name="not_saved">Could not save </string>
+    <string name="deleted">Deleted </string>
+    <string name="not_deleted">Could not delete </string>
+    <string name="mem_file_title">Name of new memory file</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_mem_files">No memory files found</string>
+    <string name="load_mem">Load memory file</string>
+    <string name="save_mem">Save memory file</string>
+    <string name="delete_mem">Delete memory file</string>
+    <string name="file">file</string>
+    <string name="files">files</string>
+    <string name="new_file">New</string>
+    <string name="about">About</string>
+    <string name="back">Back</string>
+    
+    <string name="prop_text">This is the free version of Andro12C. Thanks for trying it out!\n\n
+If you like Andro12C and find it useful, consider supporting development by purchasing the Full version.</string>
+    <string name="prop_button">Touch here to buy the full version</string>
+    <string name="adsense">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

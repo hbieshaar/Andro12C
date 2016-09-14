@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="free_version">true</bool>
+    
+    <string-array name="annunciators">
+        <item>dmodifier</item>
+        <item>dbegin</item>
+        <item>ddmyc</item>
+        <item>pgrm</item>
+    </string-array>
+    <string-array name="anndefs">
+        <item>STO</item>
+        <item>BEGIN</item>
+        <item>D.MY</item>
+        <item>PRGM</item>
+    </string-array>
+    <integer-array name="hfontann">
+        <item>40</item>
+        <item>240</item>
+        <item>440</item>
+        <item>640</item>
+    </integer-array>
+    <integer-array name="vfontann">
+        <item>0</item>
+        <item>150</item>
+        <item>260</item>
+        <item>380</item>
+    </integer-array>
+</resources>
